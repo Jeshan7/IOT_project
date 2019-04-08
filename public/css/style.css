@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:600');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  background-image: url(img.jpg);
+  background-size: cover;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 340px;
+  text-align: center;
+
+}
+
+.contact {
+  position: relative;
+  box-sizing: border-box;
+  padding: 60px 30px;
+  transition: -5s;
+}
+
+.contact:hover {
+   background: rgba(255,255,255, 0.1);
+   box-shadow: 0 0 20px rgbs(0,0,0,.2);
+}
+
+.contact input {
+  display: block;
+	width: 100%;
+	padding:10px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	border-radius: 25px;
+	outline: none;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: #000;
+
+	border: none;
+	background: rgba(255,255,255,.1);
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.contact input::placeholder {
+  color: #000;
+}
+
+.contact input[type="submit"] {
+  color:#fff;
+  background: #0072ff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+.contact input[type="submit"]:hover {
+  background: #005aca;
+  }
+
+.full{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+
+}
